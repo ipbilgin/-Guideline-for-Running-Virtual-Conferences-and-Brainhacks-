@@ -1,0 +1,31 @@
+# add the top header 
+- header: Guideline for Running Virtual Conferences and Brainhacks
+
+# add the 'about.md' section at the top 
+- url: /intro
+  not_numbered: true
+
+# ad a divider: a divider is just a black line separating sections. It is just aesthetics.
+- divider: true
+
+# add a second header
+- header: Contents
+
+# add the first notebook
+- url: /features/pros_and_cons_of_organizing_a_virtual_event.md
+  not_numbered: true
+
+# add the second notebook
+- url: /features/general_scopes_of_a_virtual_event.md
+  not_numbered: true
+ 
+# add the third notebook
+- url: /features/leading_and_attending_to_brainhack_projects.md
+  not_numbered: true
+  
+# another divider
+- divider: true
+
+# add the LICENSE 
+- url: /LICENSE
+  not_numbered: true
