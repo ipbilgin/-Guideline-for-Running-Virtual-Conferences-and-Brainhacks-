@@ -2,21 +2,22 @@
 # Jekyll site settings
 ######################
 title: Guideline-for-Running-Virtual-Conferences-and-Brainhacks
-author: The Brainhack Community #@@@ CHANGE THIS -2  @@@#
-email: ipbilgin@gmail.com #@@@ CHANGE THIS -3 @@@#
+author: The Brainhack Community
+email: ipbilgin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Guideline for organizing virtual events and Brainhacks #@@@ CHANGE THIS - 4 @@@#
+  Guideline for organizing virtual events and Brainhacks
   
 # the name of your GitHub Repo. 
 # If there is no subpath for your site, use an empty string ""  
-baseurl: "" #@@@ CHANGE THIS -5 @@@#
+baseurl: ""
 
 
 # the base hostname & protocol for your site. 
 # Since we are deloying on GitHub pages, the URL has the format:
 # "https://your-github-username.github.io/" 
 # In my case is:
-url: "https://guideline-for-running-virtual-conferences-and-brainhacks.github.io/" #@@@ CHANGE THIS - 6 @@@#
+url: "https://guideline-for-running-virtual-conferences-and-brainhacks.github.io/"
+
 
 #######################
 # Jupyter Book settings
@@ -63,8 +64,8 @@ use_binder_button                : true  # If 'true', add a binder button for in
 binderhub_url                    : https://mybinder.org  # The URL for your BinderHub. If no URL, use ""
 
 
-binder_repo_base                 : https://github.com/ipbilgin/-Guideline-for-Running-Virtual-Conferences-and-Brainhacks-  #@@@ CHANGE THIS @@@  -8 # # The site on which the textbook repository is hosted
-binder_repo_org                  : -Guideline-for-Running-Virtual-Conferences-and-Brainhacks-  #@@@ CHANGE THIS @@@ - 9# # Your GitHub username
+binder_repo_base                 : https://github.com/ipbilgin/-Guideline-for-Running-Virtual-Conferences-and-Brainhacks- 
+binder_repo_org                  : -Guideline-for-Running-Virtual-Conferences-and-Brainhacks- 
 
 binder_repo_name                 : my-book-site  # The project repo name
 binder_repo_branch               : master  # The branch on which your textbook is hosted.
@@ -141,5 +142,3 @@ plugins:
 
 # Jupyter Book version - DO NOT CHANGE THIS. It is generated when a new book is created
 jupyter_book_version: "0.6.4"
-
-theme: jekyll-theme-midnight
